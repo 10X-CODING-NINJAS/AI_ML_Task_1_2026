@@ -1,4 +1,4 @@
-# INTROVERT-EXTROVERT-AMBIVERT_PREDICTOR
+# INTROVERT-EXTROVERT_PREDICTOR
 
 ## Project Overview:-
 This project builds a Machine Learning predicting model to classify users into Introvert or Extrovert  based on behavioral and lifestyle feautres. The project follows  EDA, Feature Engineering, Data Preprocessing, Model Training, and Model Evaluation.
@@ -9,9 +9,6 @@ The objective is to build a Classical Machine Learning pipeline capable of predi
 ## Dataset description:-
 The dataset contains synthetic behavioral data with features related to Time_spent_Alone, Stage_fear, Going_outside, Friends_circle_size, Drained_after_socializing.
 It's sourced from kaggle.  **Dataset Source:** https://www.kaggle.com/datasets/rakeshkapilavai/extrovert-vs-introvert-behavior-data
-
-## Target Variable:
- Personality Type = Introvert Extrovert 
 
 ## Technologies Used
 - Python
@@ -70,7 +67,7 @@ The models were evaluated using:
 - Precision
 - Recall
 - F1-Score
-- Confusion Matrix and these are included in the notebook
+- Confusion Matrix
 
 ## Steps to run the project:-
 
