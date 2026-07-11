@@ -1,0 +1,121 @@
+# ML Pipeline for Social Media Engagement Prediction
+
+## Overview
+This project predicts social media engagement using machine learning techniques. The goal is to analyze social media post data, engineer useful features, and train classification models to predict engagement levels.
+
+This was my first machine learning project and helped me understand the complete ML workflow from data preprocessing to model evaluation.
+
+---
+
+## Project Workflow
+
+1. Data Collection and Loading
+2. Exploratory Data Analysis (EDA)
+3. Data Cleaning and Preprocessing
+4. Feature Engineering
+5. Model Training
+6. Model Evaluation
+7. Model Comparison
+
+---
+
+## Dataset
+
+The dataset contains information related to social media posts and engagement metrics.
+
+Example features include:
+
+- Impressions
+- Likes
+- Shares
+- Comments
+- Reach
+- Clicks
+- Engagement Rate
+
+---
+
+## Models Used
+
+### 1. Logistic Regression
+A linear classification algorithm used as the baseline model.
+
+### 2. Decision Tree Classifier
+A tree-based model capable of capturing non-linear relationships in data.
+
+### 3. Random Forest Classifier
+An ensemble learning model that combines multiple decision trees to improve prediction performance.
+
+---
+
+## Model Performance
+
+| Model | Accuracy |
+|-------|----------|
+| Logistic Regression | 50.58% |
+| Decision Tree | 94.29% |
+| Random Forest | 95.92% |
+
+The Random Forest Classifier achieved the highest accuracy and performed best on the dataset.
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+## Project Structure
+
+```
+ML-pipeline-for-Social-Media-Engagement-Prediction/
+│
+├── DATA/
+│   └── Social Media Engagement Dataset.xlsx
+│
+├── NOTEBOOK/
+│   └── SocialMediaEngagementPrediction.ipynb
+│
+├── images/
+│
+├── README.md
+│
+└── .gitignore
+```
+
+---
+
+## Learning Outcomes
+
+Through this project, I learned:
+
+- Data preprocessing techniques
+- Feature engineering
+- Classification algorithms
+- Model evaluation using accuracy score
+- Comparing machine learning models
+- Building an end-to-end machine learning pipeline
+
+---
+
+## Future Improvements
+
+- Hyperparameter tuning
+- Cross-validation
+- Additional evaluation metrics
+- Deployment using Streamlit or Flask
+- Real-world social media datasets
+
+---
+
+## Author
+
+**Nagasai Pradhyumna Poola**
+
+GitHub: https://github.com/nagasaipradhyumnapoola
